@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap");
+
+* {
+  font-family: "Rowdies", cursive;
+}
+
+/* Change the values in here to match your branding */
+:root {
+  /* Background color of the page */
+  --background-color: #1c1e21;
+
+  /* Color of the text/words */
+  --text-color: #fff;
+
+  /* Main color of your brand */
+  --color-primary: #f213a4;
+
+  /* Secondary color of your brand */
+  --color-secondary: #418dff;
+
+  /* Which font you want to use */
+  --font: "Inter", sans-serif;
+
+  /* Color of the border around items */
+  --border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* --- Don't need to modify below here --- */
+
+body {
+  margin: 0;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-image: url(/assets/background/Background.jpg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 0.3em solid #af9374;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: url(/assets/images/WebsiteBackground.png);
+}

@@ -1,0 +1,19 @@
+.clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.bird {
+  scale: unset;
+}
+
+@media only screen and (max-width: 600px) {
+  .bird {
+    scale: 2;
+  }
+}

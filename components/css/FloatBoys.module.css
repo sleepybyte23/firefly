@@ -1,0 +1,29 @@
+.animationFloat {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(76px);
+  }
+  50% {
+    transform: translatey(90px);
+  }
+  100% {
+    transform: translatey(76px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @keyframes float {
+    0% {
+      transform: translatey(98px);
+    }
+    50% {
+      transform: translatey(118px);
+    }
+    100% {
+      transform: translatey(98px);
+    }
+  }
+}

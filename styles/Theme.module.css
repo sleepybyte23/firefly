@@ -1,0 +1,39 @@
+.animationFloat {
+  animation: float 6s ease-in-out infinite;
+}
+
+.clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
+  overflow: hidden;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(76px);
+  }
+  50% {
+    transform: translatey(90px);
+  }
+  100% {
+    transform: translatey(76px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @keyframes float {
+    0% {
+      transform: translatey(98px);
+    }
+    50% {
+      transform: translatey(118px);
+    }
+    100% {
+      transform: translatey(98px);
+    }
+  }
+}
