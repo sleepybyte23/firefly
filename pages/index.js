@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>José the PePe</title>
+        <title>FireFly</title>
         <meta
           name="description"
           content="José the Pepe for the people. Bringing green to your PFP, one Pepe at a time"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/FavIcon.jpeg" />
+        <link rel="icon" href="/assets/LogoFF.png" />
       </Head>
       {/* <MarqueeCustom /> */}
       <CitrusCrush />
